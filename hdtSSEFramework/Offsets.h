@@ -12,7 +12,7 @@ namespace hdt
 		// the slow time timer slows down when slow time effects are happening, which is how the game slows things down
 		// 74 35 45 33 C0 33 D2
 		constexpr std::uintptr_t GameStepTimer_SlowTime = 0x02F6B948;
-		constexpr std::uintptr_t GameStepTimer_NoSlowTime = 0x02F6894C;
+		constexpr std::uintptr_t GameStepTimer_NoSlowTime = 0x02F6B94C;
 
 		// HookArmor.cpp
 		// E8 ? ? ? ? 48 8B E8 FF C7 
